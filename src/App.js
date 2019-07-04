@@ -29,9 +29,11 @@ export default class App extends React.Component {
           <div className="container">
             <div className="row">  
               <div className="col-md-4 offset-4">               
-                
+              <button type="button" class="list-group-item list-group-item-action active">
+                  Click to see more details
+              </button>
                   <Holders allUsers = {this.state.users}/>
-                 
+
               </div>
             </div>
           </div>
